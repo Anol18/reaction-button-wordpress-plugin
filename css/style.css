@@ -1,0 +1,31 @@
+.reaction-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.reaction-icons button {
+  background-color: white;
+  border: 1px solid rgb(253, 75, 105);
+  outline: none;
+}
+.reaction-icons button:hover {
+  background-color: rgb(253, 75, 105);
+}
+button.off {
+  background-color: white;
+}
+button.on {
+  background-color: rgb(253, 75, 105);
+}
+
+.reaction-icons button span {
+  /* font-size: 0.3em; */
+  position: relative;
+  left: -12px;
+  width: 20px;
+  top: 8px;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-decoration: none;
+  display: inline-block;
+}
